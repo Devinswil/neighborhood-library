@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Neighborhood_library {
     private static book[] books = new book[20];
+    private static int numbook= 0;
 
     public static void main(String[] args) {
 
@@ -30,7 +31,40 @@ public class Neighborhood_library {
 
 
         Scanner myscan= new Scanner(System.in);
-        
+        while(true){
+            System.out.println("Neighborhood Library Store Home Screen");
+            System.out.println("1: Show Available Books");
+            System.out.println("2: Show Checked Out Books");
+            System.out.println("3: Exit");
+
+            int selection=myscan.nextInt();
+            myscan.nextLine();
+
+            switch(selection){
+                case 1:
+                    showAvailableBooks();
+                    break;
+                case 2:
+                    showCheckedOutBooks();
+                    break;
+                case 3:
+                    System.out.println("See Ya!");
+                    return;
+
+
+
+
+
+
+            }
+        }
+
+      public static void showAvailableBooks(){
+            System.out.println("available Books: ");
+         for(int i =0, i<numbook; i++){
+                System.out.println(numbook[1]);
+            }
+        }
 
 
 
