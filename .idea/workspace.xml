@@ -7,6 +7,7 @@
     <list default="true" id="351a0fec-c14c-4030-aff1-97766d60731c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Neighborhood_library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Neighborhood_library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Book.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
